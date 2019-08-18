@@ -54,7 +54,6 @@ class GroupAdmin(VersionAdmin, FSMTransitionMixin):
         'kind',
         'gender',
         'representing',
-        'bhs_id',
         'code',
         'status',
     ]
@@ -120,7 +119,6 @@ class PersonAdmin(VersionAdmin, FSMTransitionMixin):
         'bhs_id',
         'birth_date',
         'part',
-        'mon',
         'gender',
         'home_phone',
         'work_phone',
