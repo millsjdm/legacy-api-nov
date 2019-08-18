@@ -21,7 +21,7 @@ sentry_sdk.init(
         RqIntegration(),
     ],
     send_default_pii=True,
-    environment=get_env_variable("HEROKU_APP_NAME"),
+    # environment=get_env_variable("HEROKU_APP_NAME"),
 )
 
 # Email
